@@ -8,26 +8,26 @@ import Icon6 from '../../../assets/img/service/6.png'
 export const OurServiceData = [
 {
  img:Icon1,
- heading:"Data Science",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ heading:"Bioinformatics",
+ paragraph:"Developing customized software/algorithms for analysis and interpretation of biological data. Areas of expertise; Single cell genomics, Metagenomics, Transcriptomics, Proteomics, Molecular Epidemiology, Phylogenetics, Phylodynamics and Phylogeography.",
  button:"Read More ..."
 },
 {
  img:Icon2,
- heading:"Machine Learning",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ heading:"Big Data Analytics",
+ paragraph:"Conventional statistical analysis, Machine learning, Deep learning. In various fields; Biomedical, Aviation, Finance, Education, Climate and Agriculture. We use modern technologies to visualize your data in the simplest informative way in a near real-time fashion.",
  button:"Read More ..."
 },
 {
  img:Icon3,
- heading:"Artificial Intelligence",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ heading:"Computing Infrastructure",
+ paragraph:"Server installation and management. We help you plan for your personal/institutional computational needs, acquire the optimal equipment for your needs, install and maintain the resource.",
  button:"Read More ..."
 },
 {
  img:Icon4,
- heading:"Data Warehousing",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ heading:"DataBases",
+ paragraph:"Design, Development and Deployment.",
  button:"Read More ..."
 },
 {

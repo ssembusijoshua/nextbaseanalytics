@@ -1,9 +1,9 @@
 export const MenuData = [
     {
         name: "Home",
-        href: "#!",
-        has_children: true, 
-        children: [
+        href: "/home_three",
+        has_children: false, 
+        /*children: [
             {
                 name: "Home One",
                 href: "/",
@@ -29,13 +29,18 @@ export const MenuData = [
                 href: "/home_five",
                 has_children: false,
             },
-        ]
+        ]*/
+    },
+    {
+        name: "About Us",
+        href: "/about",
+        has_children: false,
     },
     {
         name: "Services",
-        href: "#!",
-        has_children: true,
-        children: [
+        href: "/services",
+        has_children: false,
+        /*children: [
             {
                 name: "Services",
                 href: "/services",
@@ -46,18 +51,13 @@ export const MenuData = [
                 href: "/service_details",
                 has_children: false,
             }
-        ]
+        ]*/
     },
     {
-        name: "About Us",
-        href: "/about",
+        name: "Portfolio",
+        href: "/projects",
         has_children: false,
-    },
-    {
-        name: "Projects",
-        href: "#!",
-        has_children: true,
-        children: [
+        /*children: [
             {
                 name: "Projects",
                 href: "/projects",
@@ -68,9 +68,9 @@ export const MenuData = [
                 href: "/project_details",
                 has_children: false,
             }
-        ]
+        ]*/
     },
-    {
+    /*{
         name: "Blog",
         href: "#!",
         has_children: true,
@@ -86,7 +86,7 @@ export const MenuData = [
                 has_children: false,
             }
         ]
-    },
+    },*/
     {
         name: "Pages",
         href: "#!",
