@@ -1,14 +1,14 @@
 import React from 'react'
 import shap from '../assets/img/svg/footer.svg'
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logo11.png'
 import { ImLocation } from 'react-icons/im';
 import { FiPhoneOutgoing } from 'react-icons/fi';
 import { SiMinutemailer } from 'react-icons/si';
  
 const FooterItems=[
     {
-        title:"Useful Links",
+        title:"Links",
         links: [
           { linkTitle: "Home", link: "/" },
           { linkTitle: "Faqs", link: "/faqs" },
@@ -22,7 +22,7 @@ const FooterItems=[
           { linkTitle: "About", link: "/about" },
           { linkTitle: "Service", link: "/services" },
           { linkTitle: "Contact Us", link: "/contact" },
-          { linkTitle: "Projects", link: "/projects" },
+          { linkTitle: "Portfolio", link: "/projects" },
         ],
     }
 ]
@@ -64,7 +64,7 @@ const Footer=()=> {
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div className="footer-list-widget pl20 responsive-mt-60">
                         <div className="footer-heading">
-                            <h5>Contact Info</h5>
+                            <h5>Contact</h5>
                         </div>
                         <div className="footer-contact-area footer-list pt40">
                            <ul>
@@ -75,7 +75,7 @@ const Footer=()=> {
                                    <i><FiPhoneOutgoing/></i><Link to="/">+012 -3 456 789</Link>
                                </li>
                                <li>
-                                   <i><SiMinutemailer/></i><Link to="/">Info@gmail.com</Link>
+                                   <i><SiMinutemailer/></i><Link to="/">Info@nextbase.com</Link>
                                </li>
                            </ul>
                        </div>  

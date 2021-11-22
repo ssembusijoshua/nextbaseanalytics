@@ -1,7 +1,7 @@
 export const PricingData=[
 {
- title:"Standard Package",
- price:"70",
+ title:"Gold",
+//  price:"70",
  data:[
   {
    list:"Unlimited Campaigns"
@@ -29,11 +29,11 @@ export const PricingData=[
    list:"Business Prediction"
   },
  ],
-btn:"BUY NOW"
+btn:"Read More"
 },
 {
- title:"Standard Package",
- price:"40",
+ title:"Silver",
+//  price:"40",
  data:[
   {
    list:"Unlimited Campaigns"
@@ -60,11 +60,11 @@ btn:"BUY NOW"
    list:"Business Prediction"
   },
  ],
-btn:"BUY NOW"
+btn:"Read More"
 },
 {
- title:"Standard Package",
- price:"20",
+ title:"Bronze",
+//  price:"20",
  data:[
   {
    list:"Unlimited Campaigns"
@@ -92,6 +92,6 @@ btn:"BUY NOW"
    list:"Business Prediction"
   },
  ],
-btn:"BUY NOW"
+btn:"Read More"
 }
 ]

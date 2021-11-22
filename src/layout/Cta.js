@@ -22,7 +22,7 @@ const Cta = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="news-letter-text pl40 pr80 responsive-mt-30">
                                 <h3 className="white-color">Newsletter</h3>
-                                <h2 className="white-color">Subscribe Our Newletter</h2>
+                                <h2 className="white-color">Subscribe to Our Newsletter</h2>
                                 <p className="white-color">
                                     lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
                                 </p>

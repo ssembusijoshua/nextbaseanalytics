@@ -788,14 +788,14 @@ section {
 
 /* --Navbar Area Start-- */
 #bg-white{
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(243, 224, 224);
     position: inherit;
 }
 
 .plamb-nav {
-    background-color:rgb(250, 250, 250) ;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255),rgb(222, 222, 238), rgb(24, 46, 94));
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 15px;

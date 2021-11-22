@@ -26,19 +26,19 @@ export const OurServiceData = [
 },
 {
  img:Icon4,
- heading:"DataBases",
+ heading:"Biostatistical Analysis",
  paragraph:"Design, Development and Deployment.",
  button:"Read More ..."
 },
 {
  img:Icon5,
- heading:"Data Analytics",
+ heading:"Data Management",
  paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
  button:"Read More ..."
 },
 {
  img:Icon6,
- heading:"Business Intelligence",
+ heading:"Short Training",
  paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
  button:"Read More ..."
 }

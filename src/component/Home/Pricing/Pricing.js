@@ -39,7 +39,7 @@ const Pricing =({className = ''})=> {
                                     <div className="pricing-table box-shadow border-radius">
                                         <div className="pricing-table-header">
                                            <h3>{data.title}</h3>
-                                            <h2>${data.price}</h2>
+                                            <h2>{data.price}</h2>
                                         </div>
                                         <div className="pricing-table-content">
                                             <ul>

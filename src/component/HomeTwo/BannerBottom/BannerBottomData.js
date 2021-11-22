@@ -4,22 +4,22 @@ import svg3 from '../../../assets/img/svg/monitor.svg'
 export const BottomData =[
     {
         svg:svg1,
-        heading:"Big Data Analytics",
+        heading:"Bioinformatics",
         para:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. eum maxime vel, fuga voluptate possimus doloremque sequi aliquid, veniam iure officia dolorem.`,
     }, 
     {
         svg:svg2,
-        heading:"Big Data Intergration",
+        heading:"Big Data Analytics",
         para:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. eum maxime vel, fuga voluptate possimus doloremque sequi aliquid, veniam iure officia dolorem.`,
     }, 
     {
         svg:svg3,
-        heading:"Content Management",
+        heading:"Computing Infrastructure",
         para:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. eum maxime vel, fuga voluptate possimus doloremque sequi aliquid, veniam iure officia dolorem.`,
     },
     {
         svg:svg1,
-        heading:"Big Data Analytics",
+        heading:"Short Training",
         para:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. eum maxime vel, fuga voluptate possimus doloremque sequi aliquid, veniam iure officia dolorem.`,
     }
  ]

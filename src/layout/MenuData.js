@@ -88,10 +88,10 @@ export const MenuData = [
         ]
     },*/
     {
-        name: "Pages",
-        href: "#!",
-        has_children: true,
-        children: [
+        name: "Our Rates",
+        href: "/home_two",
+        has_children: false,
+        /*children: [
             {
                 name: "Shop",
                 href: "/shop",
@@ -132,6 +132,6 @@ export const MenuData = [
                 href: "/error",
                 has_children: false,
             }
-        ]
+        ]*/
     }
 ]
