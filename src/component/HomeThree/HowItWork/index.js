@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionHeading from '../../Common/SectionHeading'
-import img from '../../../assets/img/home5/how-it-work.png'
+import img from '../../../assets/img/home5/howorks.jpg'
 import Tilt from 'react-parallax-tilt';
 const HowItWorks = () => {
     return (

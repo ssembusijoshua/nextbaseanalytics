@@ -31,7 +31,7 @@ import ScrollToTop from "./helpers/ScrollToTop";
 // Layout Component
 import Header from '../src/layout/Header'
 import Footer from '../src/layout/Footer'
-import Cta from '../src/layout/Cta'
+//import Cta from '../src/layout/Cta'
 import CopyRight from '../src/layout/CopyRight'
 
 
@@ -66,7 +66,7 @@ const App = () => {
                             <Route path='/faqs' exact component={Faqs}/>
                             <Route exact component={Error}/>
                         </Switch>
-                        <Cta/>
+                        {/* <Cta/> */}
                         <Footer/>
                         <CopyRight/>
                     </ScrollToTop>

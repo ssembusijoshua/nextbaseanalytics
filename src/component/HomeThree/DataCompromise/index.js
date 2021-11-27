@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../../../assets/img/home5/about.png'
+import img from '../../../assets/img/home4/coree.png'
 import { GoCheck } from 'react-icons/go';
 
 const DataCompromise = () => {

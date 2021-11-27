@@ -1,6 +1,6 @@
 import React from "react";
 import Tilt from 'react-parallax-tilt';
-import img from "../../../assets/img/home4/about.png";
+import img from "../../../assets/img/home4/data.png";
 import svg1 from "../../../assets/img/svg/settings.svg";
 import svg2 from "../../../assets/img/svg/testing.svg";
 import svg3 from "../../../assets/img/svg/template.svg";

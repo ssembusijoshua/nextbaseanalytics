@@ -1,6 +1,6 @@
 import React from "react";
 // Import Img
-import img from '../../../assets/img/home4/about.png'
+import img from '../../../assets/img/home4/data.png'
 import img2 from '../../../assets/img/home-two-data/1.png'
 import svg1 from "../../../assets/img/svg/settings.svg";
 import svg2 from "../../../assets/img/svg/testing.svg";
@@ -80,7 +80,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row  align-items-center ">
+          {/* <div className="row  align-items-center ">
             <div className="col-lg-6  col-md-12 col-sm-12 col-12 pt60">
               <div className="data-science-text">
                 <div className="left-side-title">
@@ -125,7 +125,7 @@ const About = () => {
                 </Tilt>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -63,7 +63,7 @@ const BannerBottom = () => {
       };
     return (
         <>
-    <section id="banner_bottom" className="py100">
+    <section id="banner_bottom" className="py10">
    <div className="container">
     <Slider {...settings}>
         {BottomData.map((data, index)=>(

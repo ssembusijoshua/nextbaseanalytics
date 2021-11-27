@@ -1,6 +1,7 @@
 import svg1 from '../../../assets/img/svg/data.svg'
 import svg2 from '../../../assets/img/svg/check.svg'
 import svg3 from '../../../assets/img/svg/monitor.svg'
+
 export const BottomData =[
     {
         svg:svg1,

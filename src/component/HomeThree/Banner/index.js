@@ -5,7 +5,7 @@ import '../../../../node_modules/react-modal-video/css/modal-video.min.css'
 // Icon
 import {AiOutlinePlayCircle} from 'react-icons/ai';
 // Img
-import img_banner from '../../../assets/img/about/1.png'
+import img_banner from '../../../assets/img/about/datta.png';
 
 const Banner = () => {
     const [isOpen, setOpen] = useState(false)

@@ -11,7 +11,7 @@ const CopyRight = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="copy-text">
-                                <p>Nextbaseanalytics@2021. All Rights Reserved</p>
+                                <p>Nextbase Analytics 2021. All Rights Reserved</p>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
