@@ -1,9 +1,9 @@
 :root {
     --main-theme-color: #00020a;
-    --dark-bg-color: #e2e6f0;
+    --dark-bg-color: #f3f3f5;
     --heading-color: #00030a;
-    --paragraph-color: #777c87;
-    --banner-paragraph-color: #344a6f;
+    --paragraph-color: #859bc9;
+    --banner-paragraph-color: #095dee;
 }
 
 /*text color*/
@@ -17,10 +17,11 @@ a.text-link:hover,
 .seat li:nth-child(1) i {
     color: var(--main-theme-color);
 }
-
+h2{
+    color: rgb(5, 5, 128);
+}
 a,
 h1,
-h2,
 h3,
 h4,
 h5,

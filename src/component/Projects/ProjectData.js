@@ -5,39 +5,27 @@ import img3 from '../../assets/img/project-grid/3.jpg'
 export const ProjectData = [
     {
         img: img1,
-        title: "Artificial Intelligence"
+        title: "Bioinformatics"
     },
     {
         img: img2,
-        title: "Web Design"
+        title: "Big Data Analytics"
     },
     {
         img: img3,
-        title: "App Design"
+        title: "Biostatistical Analysis"
     },
     {
         img: img2,
-        title: "Web Application"
+        title: "Data Management"
     },
     {
         img: img3,
-        title: "App Development"
+        title: "Computing Infrastructure"
     },
     {
         img: img1,
-        title: " SEO "
+        title: " Short Training"
     },
-    {
-        img: img1,
-        title: "App Design"
-    },
-    {
-        img: img2,
-        title: "Web Design"
-    },
-
-    {
-        img: img3,
-        title: "Web Application"
-    }
+    
 ]

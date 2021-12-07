@@ -24,7 +24,13 @@ import ResetPassword from '../src/page/ResetPassword'
 import Contact from '../src/page/Contact'
 import Faqs from '../src/page/Faqs'
 import Error from '../src/page/Error'
-
+import Service from './component/Service_two/Service'
+import Bioinformatics from '../src/page/Bioinformatics'
+import BigDataAnalytics from '../src/page/BigDataAnalytics'
+import BiostatisticalAnalysis from '../src/page/BiostatisticalAnalysis'
+import DataManagement from '../src/page/DataManagement'
+import ComputingInfrastructure from '../src/page/ComputingInfrastructure'
+import ShortTraining from '../src/page/ComputingInfrastructure'
 // Scroll Top 
 import ScrollToTop from "./helpers/ScrollToTop";
 
@@ -64,7 +70,15 @@ const App = () => {
                             <Route path='/reset_password' exact component={ResetPassword}/>
                             <Route path='/contact' exact component={Contact}/>
                             <Route path='/faqs' exact component={Faqs}/>
+                            <Route path='/service' component={Service}/>
+                            <Route path='/bioinformatics'component={Bioinformatics}/>
+                            <Route path='/bigdataanalytics'component={BigDataAnalytics}/>
+                            <Route path='/biostatisticalanalysis'component={BiostatisticalAnalysis}/>
+                            <Route path='/datamanagement'component={DataManagement}/>
+                            <Route path='/computinginfrastructure'component={ComputingInfrastructure}/>
+                            <Route path='/shorttraining'component={ShortTraining}/>
                             <Route exact component={Error}/>
+                            
                         </Switch>
                         {/* <Cta/> */}
                         <Footer/>

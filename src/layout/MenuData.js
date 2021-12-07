@@ -38,7 +38,7 @@ export const MenuData = [
     },
     {
         name: "Services",
-        href: "/services",
+        href: "/service",
         has_children: false,
         /*children: [
             {

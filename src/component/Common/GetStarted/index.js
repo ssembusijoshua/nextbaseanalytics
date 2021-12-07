@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../assets/img/project-details/2.png'
+import img1 from '../../../assets/img/project-details/get-started.png'
 import {Link} from 'react-router-dom'
 
 const Index = () => {

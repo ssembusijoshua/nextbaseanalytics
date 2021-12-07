@@ -1,6 +1,6 @@
 import React from 'react'
 // import About Img
-import img1 from '../../assets/img/about-page.png'
+import img1 from '../../assets/img/about-us.jpg'
 // import Icon
 import {FiCheck} from 'react-icons/fi';
 
