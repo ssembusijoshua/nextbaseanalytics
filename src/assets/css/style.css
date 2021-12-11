@@ -866,7 +866,7 @@ section {
 .plamb-nav .navbar .navbar-nav .nav-item:focus a,
 .plamb-nav .navbar .navbar-nav .nav-item.active a {
     /*color: var(--main-theme-color);*/
-    color: green;
+    color: rgba(55, 41, 180, 0.548);
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -874,7 +874,7 @@ section {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     background: #ffffff;
     position: absolute;
-    border: none;
+    border:none;
     top: 80px;
     left: 0;
     width: 230px;
@@ -902,8 +902,8 @@ section {
     padding-left: 0;
     margin: 0;
     position: relative;
-    color: #393953;
-    font-size: 15.5px;
+    color: #fff;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -990,7 +990,7 @@ section {
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
-    left: 195px;
+    left: 0px;
     top: 0;
     opacity: 0;
     visibility: hidden;
@@ -1205,8 +1205,10 @@ section {
 /* Responsive Menu */
 .mean-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    position: absolute;
+    right: 0px;
 }
 .plamb-responsive-nav {
     display: none;
@@ -1222,31 +1224,34 @@ section {
         position: inherit;
     }
     .plamb-nav .navbar .navbar-nav {
-      padding: 45px;
+      padding: 20px;
     }
     .plamb-nav .navbar .navbar-nav .nav-item a {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-bottom: 2px solid rgb(170, 159, 230);
     }
     .mean-menu{
         display: none;
         position: absolute;
-        top: 63px;
-        z-index: 999;
-        background: rgb(4, 75, 42);
+        top: 80px;
+        z-index: 500;
+        background-color: rgb(174, 194, 206);
+        margin-top: 15px;
     }
     .navbar-area {
         padding: 0px 40px;
     }
     .responsive-button{
         position: absolute;
-        right: 40px;
-        top: 25px;
+        right: 50px;
+        top: 35px;
     }
     .responsive-button{
-        font-size: 36px;
+        font-size: 35px;
+        color: rgb(8, 72, 247);
     }
 
 }
@@ -2629,7 +2634,7 @@ button:focus {
 }
 
 #home-thre-nav .plamb-nav .navbar .navbar-nav .nav-item a:hover {
-    color: #70befa;
+    color: #098ff5;
 }
 
 #home-thre-nav .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu {

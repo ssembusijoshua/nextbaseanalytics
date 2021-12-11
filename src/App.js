@@ -70,7 +70,7 @@ const App = () => {
                             <Route path='/reset_password' exact component={ResetPassword}/>
                             <Route path='/contact' exact component={Contact}/>
                             <Route path='/faqs' exact component={Faqs}/>
-                            <Route path='/service' component={Service}/>
+                            <Route path='/service' component={Service }/>
                             <Route path='/bioinformatics'component={Bioinformatics}/>
                             <Route path='/bigdataanalytics'component={BigDataAnalytics}/>
                             <Route path='/biostatisticalanalysis'component={BiostatisticalAnalysis}/>
