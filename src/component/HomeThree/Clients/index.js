@@ -64,8 +64,9 @@ const OurClient = () => {
         <>
           <section id="home5-testimonials" className="py100">
     <div className="container">
-        <SectionHeading heading="Clients Testimonials" para="Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."/>
+        <SectionHeading para="We are living in a world of big data that is empowering 
+        businesses and organisations to make data-driven decisions. Data science has become a 
+        key and central technology for this information age."/>
             <div className="">
             <Slider {...settings}>
                 {ClientsData.map((data, index)=>(

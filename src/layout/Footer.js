@@ -11,18 +11,19 @@ const FooterItems=[
         title:"Links",
         links: [
           { linkTitle: "Home", link: "/" },
-          { linkTitle: "Faqs", link: "/faqs" },
-          { linkTitle: "Shop", link: "/shop" },
-          { linkTitle: "News", link: "/blog" },
+          { linkTitle: "About Us", link: "/about" },
+          { linkTitle: "What we do", link: "/service" },
+          { linkTitle: "Portifolio", link: "/projects" },
+          { linkTitle: "Our Rates", link: "/home_two" },
         ],
     },
     {
         title:"Services",
         links: [
-          { linkTitle: "About", link: "/about" },
-          { linkTitle: "Service", link: "/services" },
-          { linkTitle: "Contact Us", link: "/contact" },
-          { linkTitle: "Portfolio", link: "/projects" },
+          { linkTitle: "Big Data", link: "/about" },
+          { linkTitle: "Biostatistics", link: "/services" },
+          { linkTitle: "Data management", link: "/contact" },
+          { linkTitle: "Bioinformatics", link: "/contact" },
         ],
     }
 ]
@@ -37,12 +38,11 @@ const Footer=()=> {
                     <div className="footer-about-area">
                         <Link to="/"><img alt="" src={logo}  /></Link>
                         <p className="pt30">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut.
+                            NextBase Analytics offers a range of services that support customers achieve the product and commercial product.
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        </p>
+                        {/* <p>
+                           Our services can be provided off-shore or at the customer premises.
+                        </p> */}
                     </div>
                 </div>
                 {FooterItems.map((item, key)=>(
@@ -69,7 +69,7 @@ const Footer=()=> {
                         <div className="footer-contact-area footer-list pt40">
                            <ul>
                                <li>
-                                   <i><ImLocation/></i> 1101, Your street adress, New york, State, Country.
+                                   <i><ImLocation/></i> 20A, Namibia Estate, Off Nakiwogo Road,  Entebbe, Uganda.
                                </li>
                                <li>
                                    <i><FiPhoneOutgoing/></i><Link to="/">+012 -3 456 789</Link>

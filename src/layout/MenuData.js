@@ -37,7 +37,7 @@ export const MenuData = [
         has_children: false,
     },
     {
-        name: "Services",
+        name: "What we do",
         href: "/service",
         has_children: false,
         /*children: [
@@ -69,6 +69,12 @@ export const MenuData = [
                 has_children: false,
             }
         ]*/
+    },
+    {
+        name: "Products",
+        href: "/",
+        has_children: false,
+        
     },
     /*{
         name: "Blog",

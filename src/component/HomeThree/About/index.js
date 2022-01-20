@@ -1,6 +1,6 @@
 import React from "react";
 // Import Img
-import img from '../../../assets/img/home4/data.png'
+import img from '../../../assets/img/home4/consulting.png'
 import img2 from '../../../assets/img/home-two-data/1.png'
 import svg1 from "../../../assets/img/svg/settings.svg";
 import svg2 from "../../../assets/img/svg/testing.svg";
@@ -14,7 +14,7 @@ import Tilt from 'react-parallax-tilt';
 const About = () => {
   return (
     <>
-      <section id="about-us-area-home4" className="py100">
+      <section id="about-us-area-home4" className="py50">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -27,30 +27,31 @@ const About = () => {
             <div className="col-lg-6  col-md-12 col-sm-12 col-12">
               <div className="who-we-contant">
                 <h2>
-                  Build Your Targeted Audience using Data Science in minutes.
+                Knowledge and Consulting.
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  at dictum risus, non suscipit arcu. Quisque aliquam posuere
-                  tortor, sit amet convallis nunc scelerisque in ipsum dolor sit
-                  amet, consectetur adipiscing elit. Duis at dictum risus, non
-                  suscipit arcu. Quisque aliquam posuere tortor,.
+                 Nextbase Analytics has significant experience in the markets and industries that it operates and we house
+                 a multi-disciplinary team of practitioners comprising of Doctorate, Post Graduates and Graduates
+                 in science and technology with experience in Pharmaceutical, Medical, Analytical, Life Sciences 
+                 and research labs.
                 </p>
+                <p>In addition, Nexbase Analytics has professionals in the area of software and embedded technology which
+                 lays strong grounds to offer knowledge and consulting services in the markets it targets.</p>
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="home4-about-list">
                       <ul>
                         <li>
                           <img src={svg1} alt="img" />
-                          Fully Responsive
+                          Define & Structure the Problem
                         </li>
                         <li>
                           <img src={svg2} alt="img" />
-                          Multi-Device Testing
+                          Prioritize Issues
                         </li>
                         <li>
                           <img src={svg3} alt="img" />
-                          Creative Layout
+                          Analyse Work Plan
                         </li>
                       </ul>
                     </div>
@@ -60,21 +61,21 @@ const About = () => {
                       <ul>
                         <li>
                           <img src={svg4} alt="img" />
-                          Clean & Modern Design
+                          Conduct Analysis
                         </li>
                         <li>
                           <img src={svg5} alt="img"/>
-                          Great User Experience
+                          Synthesize Findings
                         </li>
                         <li>
                           <img src={svg6} alt="img" />
-                          100% Fully Responsive
+                          Develop Recommendations
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <a href="#!" className="btn btn-theme pt30">
+                <a href="/About" className="btn btn-theme pt30">
                   Read More
                 </a>
               </div>

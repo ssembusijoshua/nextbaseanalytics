@@ -13,11 +13,11 @@ const Index = () => {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="counter-area">
                                 <div className="counter-icon">
-                                    <i><AiOutlineUsergroupAdd/></i>
+                                    <i><FaAward/></i>
                                 </div>
                                 <div className="counter-body">
-                                    <h2 className="counter"><CountUp end={3500}/></h2>
-                                    <h4>My Client</h4>
+                                    {/* <h2 className="counter"><CountUp end={3500}/></h2> */}
+                                    <h4>Professional</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
@@ -28,8 +28,8 @@ const Index = () => {
                                     <i><BiCodeAlt/></i>
                                 </div>
                                 <div className="counter-body">
-                                    <h2 className="counter"><CountUp end={350}/></h2>
-                                    <h4>Project Complete</h4>
+                                    {/* <h2 className="counter"><CountUp end={350}/></h2> */}
+                                    <h4>Effective</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
@@ -37,11 +37,11 @@ const Index = () => {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="counter-area responsive-sm">
                                 <div className="counter-icon">
-                                    <i><FaAward/></i>
+                                    <i><AiOutlineUsergroupAdd/></i>
                                 </div>
                                 <div className="counter-body">
-                                    <h2 className="counter"><CountUp end={500}/></h2>
-                                    <h4>Award</h4>
+                                    {/* <h2 className="counter"><CountUp end={500}/></h2> */}
+                                    <h4>Affordable</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>

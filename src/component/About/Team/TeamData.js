@@ -1,27 +1,28 @@
-import img1 from '../../../assets/img/team/t-1.png'
-import img2 from '../../../assets/img/team/t-2.png'
-import img3 from '../../../assets/img/team/t-3.png'
-import img4 from '../../../assets/img/team/t-4.png'
+import img1 from '../../../assets/img/team/Nicholas.jpeg'
+import img2 from '../../../assets/img/team/Hassan.jpeg'
+import img3 from '../../../assets/img/team/Lukman.jpeg'
+import img4 from '../../../assets/img/team/alpha.jpeg'
 
 export const TeamData = [
     {
         img: img1,
-        name: "Kamelia Doe",
-        title: "IT Executive"
+        name: "Nicholas Bbosa",
+        title: "Manager"
     },
     {
         img: img2,
-        name: "Kamelia Doe",
-        title: "IT Executive"
+        name: "Hassan Kayondo",
+        title: "Statician"
     },
     {
         img: img3,
-        name: "Kamelia Doe",
-        title: "IT Executive"
+        name: "Lukman Bukenya",
+        title: "Data Scientist"
     },
     {
         img: img4,
-        name: "Kamelia Doe",
-        title: "IT Executive"
+        name: "Alfred SSekagiri",
+        title: "Bioinformatician"
     }
+    
 ]

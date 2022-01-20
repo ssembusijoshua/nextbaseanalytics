@@ -39,7 +39,7 @@ const Pricing =({className = ''})=> {
                                     <div className="pricing-table box-shadow border-radius">
                                         <div className="pricing-table-header">
                                            <h3>{data.title}</h3>
-                                            <h2>{data.price}</h2>
+                                            {/* <h2>{data.price}</h2> */}
                                         </div>
                                         <div className="pricing-table-content">
                                             <ul>
@@ -47,10 +47,10 @@ const Pricing =({className = ''})=> {
                                                     <li key={index}>
                                                     <i><BsCheckBox/></i> {datas.list}
                                                     </li>
-                                                ))}   
+                                                ))}
                                             </ul>
                                             <div className="pricing-table-btn text-center">
-                                                <Link className="btn btn-pricing" to="/#">{data.btn}</Link>
+                                                <Link className="btn btn-pricing" to="/contact">{data.btn}</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ const Pricing =({className = ''})=> {
                                     <div className="pricing-table box-shadow border-radius">
                                         <div className="pricing-table-header">
                                             <h3>{data.title}</h3>
-                                            <h2>${data.price}</h2>
+                                            {/* <h2>${data.price}</h2> */}
                                         </div>
                                         <div className="pricing-table-content">
                                             <ul>
@@ -78,7 +78,7 @@ const Pricing =({className = ''})=> {
                                                 ))}
                                             </ul>
                                             <div className="pricing-table-btn text-center">
-                                                <Link className="btn btn-pricing" to="/#">{data.btn}</Link>
+                                                <Link className="btn btn-pricing" to="/contact">{data.btn}</Link>
                                             </div>
                                         </div>
                                     </div>

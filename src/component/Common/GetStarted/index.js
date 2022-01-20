@@ -18,17 +18,13 @@ const Index = () => {
                                 <div className="left-side-title">
                                     <h3>Let's Get Started</h3>
                                     <h2 className="pt10">
-                                        Are you ready for a better, more productive business
+                                        Are you ready for a better, more productive business?
                                     </h2>
                                 </div>
                                 <div className="service-dec-left-text">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque atque
-                                        earum
-                                        magnam ratione obcaecati. Voluptatum magni, veritatis minima autem omnis
-                                        suscipit
-                                        cumque, aperiam necessitatibus, aliquid qui nisi voluptatem
-                                        est.
-                                    </p> <Link to="/service_details" className="btn btn-theme">Get Started Project</Link>
+                                    <p>Our consulting approach covers the entire spectrum through AI acceralators deployment and
+                                        finally contextualization of the solution to the business.
+                                    </p> <Link to="/home_two" className="btn btn-theme">Get Started Project</Link>
                                     <Link to="/contact" className="btn btn-theme">Contact With Us</Link>
                                 </div>
                             </div>

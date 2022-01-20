@@ -29,7 +29,7 @@ export const PricingData=[
    list:"Business Prediction"
   },
  ],
-btn:"Read More"
+btn:"Request Quote"
 },
 {
  title:"Silver",
@@ -60,7 +60,7 @@ btn:"Read More"
    list:"Business Prediction"
   },
  ],
-btn:"Read More"
+btn:"Request Quote"
 },
 {
  title:"Bronze",
@@ -92,6 +92,6 @@ btn:"Read More"
    list:"Business Prediction"
   },
  ],
-btn:"Read More"
+btn:"Request Quote"
 }
 ]

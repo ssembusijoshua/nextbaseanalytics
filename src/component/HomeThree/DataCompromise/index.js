@@ -17,13 +17,13 @@ const DataCompromise = () => {
               <div className="data-those-texted">
                 <div className="data-those-title">
                   <h2 className="color-white">
-                    We don`t Compromise With the best Big Data Analytics
+                    We don`t Compromise when it comes to your Data Centre Space
                   </h2>
-                  <p className="color-white pt10">
+                  {/* <p className="color-white pt10">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                     vitae error perferendis dicta ducimus similique aperiam
                     nesciunt asperiores.
-                  </p>
+                  </p> */}
                 </div>
                 <div className="data-those-inner-text">
                   <div className="data-those-inner-box">
@@ -32,12 +32,12 @@ const DataCompromise = () => {
                     </div>
                     <h3>
                       <a href="#" className="color-white">
-                        Powerfull Mobile And Online App
+                      Demand for Big Data Analytics Continues Unabated
                       </a>
                     </h3>
                     <p className="color-white">
-                      Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing
-                      elit alias officia aperiam.
+                    As data and analytics become more widely adopted than ever before, the potential for business growth is truly
+                    exponential rather than just cumulative.
                     </p>
                   </div>
                   <div className="data-those-inner-box">
@@ -46,12 +46,12 @@ const DataCompromise = () => {
                     </div>
                     <h3>
                       <a href="#" className="color-white">
-                        Brings More Transparency And Speed
+                      Adhering to Big Data Security Best Practices
                       </a>
                     </h3>
                     <p className="color-white">
-                      Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing
-                      elit alias officia aperiam.
+                    One of the most important features companies should look for in a big data security tool is insider threat detection.
+                    These capabilities empower businesses to sniff out suspicious behavior that may indicate the presence of a data breach.
                     </p>
                   </div>
                 </div>

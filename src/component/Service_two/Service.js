@@ -22,13 +22,12 @@ function Chart() {
 <img
 src={Icon1}/>
 <h3>Bioinformatics</h3>
-<p>Developing customized software/algorithms for analysis and interpretation of biological data. Areas of expertise; Single cell genomics, Metagenomics, Transcriptomics, Proteomics, Molecular Epidemiology, Phylogenetics, Phylodynamics and Phylogeography.",
-button:"Read More ...</p>
+<p>Developing customized software/algorithms for analysis and interpretation of biological data. Areas of expertise; Single cell genomics, Metagenomics, Transcriptomics, Proteomics, Molecular Epidemiology, Phylogenetics, Phylodynamics and Phylogeography.</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/Bioinformatics">More</Link>
+        <Link to="/Bioinformatics">Read-More</Link>
         </div>
         </div>
         </div>
@@ -39,13 +38,12 @@ button:"Read More ...</p>
 <img
 src={Icon2}/>
 <h3>Big Data Analytics</h3>
-<p>Conventional statistical analysis, Machine learning, Deep learning. In various fields; Biomedical, Aviation, Finance, Education, Climate and Agriculture. We use modern technologies to visualize your data in the simplest informative way in a near real-time fashion.",
-button:"Read More ...</p>
+<p>Conventional statistical analysis, Machine learning, Deep learning. In various fields; Biomedical, Aviation, Finance, Education, Climate and Agriculture. We use modern technologies to visualize your data in the simplest informative way in a near real-time fashion."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/BigDataAnalytics">More</Link>
+        <Link to="/BigDataAnalytics">Read-More</Link>
         </div>
         </div>
         </div>
@@ -56,13 +54,12 @@ button:"Read More ...</p>
 <img
 src={Icon3}/>
 <h3>Computing Infrastructure</h3>
-<p>Server installation and management. We help you plan for your personal/institutional computational needs, acquire the optimal equipment for your needs, install and maintain the resource.",
-button:"Read More ...</p>
+<p>Server installation and management. We help you plan for your personal/institutional computational needs, acquire the optimal equipment for your needs, install and maintain the resource."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/ComputingInfrastructure">More</Link>
+        <Link to="/ComputingInfrastructure">Read-More</Link>
         </div>
         </div>
         </div>
@@ -73,13 +70,12 @@ button:"Read More ...</p>
 <img
 src={Icon4}/>
 <h3>Biostatistical Analysis</h3>
-<p>Design, Development and Deployment.",
-button:"Read More ...</p>
+<p>Design, Development and Deployment."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/BiostatisticalAnalysis">More</Link>
+        <Link to="/BiostatisticalAnalysis">Read-More</Link>
         </div>
         </div>
         </div>
@@ -90,13 +86,12 @@ button:"Read More ...</p>
 <img
 src={Icon5}/>
 <h3>Data Management</h3>
-<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.,
-button:"Read More ...</p>
+<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/DataManagement">More</Link>
+        <Link to="/DataManagement">Read-More</Link>
         </div>
         </div>
         </div>
@@ -107,13 +102,12 @@ button:"Read More ...</p>
 <img
 src={Icon6}/>
 <h3>Short Training</h3>
-<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-button:"Read More ...</p>
+<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
         <p>{props.data.paragraph}</p> */}
-        <Link to="/ShortTraining">More</Link>
+        <Link to="/ShortTraining">Read-More</Link>
         </div>
         </div>
         </div>

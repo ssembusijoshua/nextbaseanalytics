@@ -22,8 +22,11 @@ const Banner = () => {
                 <h1>Big Data & Analytics</h1>
                 <h2>Innovative Solutions</h2>
                 <p>
-                  Real-time data management technologies, global data market
-                  places, and award-winning service make our solutions.
+                  NextBase Analytics offers a wide range of 
+                  services that support customers achieve the product and
+                  commercial output.
+                  Our services can be provided 
+                  off-shore or at the customer location.
                 </p>
                 <ModalVideo
                   channel="youtube"
