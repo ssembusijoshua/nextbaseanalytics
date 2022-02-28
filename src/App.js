@@ -30,7 +30,8 @@ import BigDataAnalytics from '../src/page/BigDataAnalytics'
 import BiostatisticalAnalysis from '../src/page/BiostatisticalAnalysis'
 import DataManagement from '../src/page/DataManagement'
 import ComputingInfrastructure from '../src/page/ComputingInfrastructure'
-import ShortTraining from '../src/page/ComputingInfrastructure'
+import ShortTraining from '../src/page/ShortTraining'
+import servicedetailed from './page/ServiceDetailed'
 // Scroll Top 
 import ScrollToTop from "./helpers/ScrollToTop";
 
@@ -77,6 +78,7 @@ const App = () => {
                             <Route path='/datamanagement'component={DataManagement}/>
                             <Route path='/computinginfrastructure'component={ComputingInfrastructure}/>
                             <Route path='/shorttraining'component={ShortTraining}/>
+                            <Route path='/servicedetailed'component={servicedetailed}/>
                             <Route exact component={Error}/>
                             
                         </Switch>

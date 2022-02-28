@@ -37,7 +37,7 @@ const Header = () => {
             <div className="navbar-area">
                 <div className="plamb-nav">
                     <div className="container">
-                        <nav className="navbar navbar-expand-md navbar-light">
+                        <nav className="navbar navbar-expand-md navbar-dark">
                             <Link className="navbar-brand" to="/">
                                 <img src={logos} className="white-logo" alt="logo"/>
                                 <img src={logos} className="black-logo" alt="logo"/>

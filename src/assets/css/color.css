@@ -1,8 +1,8 @@
 :root {
     --main-theme-color: #00020a;
     --dark-bg-color: #f3f3f5;
-    --heading-color: #00030a;
-    --paragraph-color: #859bc9;
+    --heading-color: #08043f;
+    --paragraph-color: #010005;
     --banner-paragraph-color: #859bc9;
 }
 
@@ -18,7 +18,7 @@ a.text-link:hover,
     color: var(--main-theme-color);
 }
 h2{
-    color: rgb(4, 4, 100);
+    color: rgb(14, 3, 54);
 }
 a,
 h1,

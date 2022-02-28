@@ -257,7 +257,7 @@ input[type="text"],
 select,
 input[type="password"] {
     min-height: 45px;
-    background: #d8adad;
+    background: #ffffff;
     border-color: #ddd;
 }
 
@@ -273,7 +273,7 @@ input[type="password"] {
 input[type="text"]:focus,
 input[type="password"]:focus,
 select:focus {
-    background-color: rgb(180, 52, 52);
+    background-color: rgb(222, 243, 233);
     outline: none;
 }
 
@@ -612,7 +612,7 @@ select:focus {
 
 .btn-theme {
     /* background: var(--main-theme-color); */
-   background-color: blue;
+   background-color: rgb(67, 143, 67);
     -webkit-transition: all 0.3s ease-in-out 0.1s;
     -o-transition: all 0.3s ease-in-out 0.1s;
     transition: all 0.3s ease-in-out 0.1s;
@@ -641,14 +641,14 @@ select:focus {
 }
 
 .btn-cta {
-    background: #242f51;
+    background: #244351;
     border-radius: 10px;
     padding: 0px 15px;
 }
 
 .btn-cta:hover {
-    background: var(--main-theme-color);
-    color: rgb(46, 3, 3);
+    background-color: #216F31;
+    color: rgb(171, 189, 178);
     -webkit-box-shadow: 0px 0px 7px -3px #000;
     box-shadow: 0px 0px 7px -3px #000;
 }
@@ -790,12 +790,12 @@ section {
 
 /* --Navbar Area Start-- */
 #bg-white{
-    background-color: rgb(46, 43, 43);
+    background-color: rgb(43, 46, 45);
     position: inherit;
 }
 
 .plamb-nav {
-    background-image: linear-gradient(to bottom right, rgb(4, 4, 29), rgb(1, 7, 20));
+    background-image: linear-gradient(to bottom right, rgb(227, 229, 236),rgb(255, 255, 255));
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 0;
@@ -834,8 +834,9 @@ section {
     font-size: 15px;
     font-weight: 600;
     /*color: var(--heading-color);*/
-    color: blue;
-    text-transform: capitalize;
+    color: rgb(6, 33, 114);
+    text-transform: uppercase;
+    font-weight: bolder;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
@@ -848,7 +849,7 @@ section {
 .plamb-nav .navbar .navbar-nav .nav-item a:focus,
 .plamb-nav .navbar .navbar-nav .nav-item a.active {
     /*color: var(--main-theme-color);*/
-    color: rgb(236, 243, 236);
+    color: rgb(10, 95, 43);
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item a i {
@@ -866,7 +867,7 @@ section {
 .plamb-nav .navbar .navbar-nav .nav-item:focus a,
 .plamb-nav .navbar .navbar-nav .nav-item.active a {
     /*color: var(--main-theme-color);*/
-    color: rgba(55, 41, 180, 0.548);
+    color: rgb(4, 29, 247);
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -1288,7 +1289,7 @@ section {
 
 .home-one-banner-content h1 {
     /* color: var(--main-theme-color); */
-    color: rgb(2, 2, 61);
+    color: rgb(0, 0, 0);
 }
 
 .home-one-banner-content h2 {
@@ -1301,7 +1302,7 @@ section {
     padding-top: 20px;
     /* color: var(--banner-paragraph-color); */
     font-size: 20px;
-    color: rgb(11, 11, 241);
+    color: rgb(25, 31, 46);
     font-weight: 400;
 }
 
@@ -2085,7 +2086,8 @@ button:focus {
 /* --Cta Area Start-- */
 
 #cta-area {
-    background-color: var(--main-theme-color);
+    /* background-color: var(--main-theme-color); */
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(85, 134, 85));
 }
 
 #cta-area .form-control {
@@ -2141,10 +2143,10 @@ button:focus {
 }
 
 .footer-heading h5 {
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: 500;
     position: relative;
-    color: blue;
+    color: #216F31;
 }
 
 .footer-heading h5:before {
@@ -2181,7 +2183,8 @@ button:focus {
 
 .copy-right {
     padding: 20px 0;
-    background: rgb(0, 0, 10);
+    /* background: rgb(0, 0, 10); */
+    background-image: linear-gradient(to bottom right, rgb(227, 229, 236),rgb(255, 255, 255), rgb(95, 173, 130));
     -webkit-box-shadow: 0px 0px 26px -20px #000;
     box-shadow: 0px 0px 26px -20px #000;
 }
@@ -2205,7 +2208,7 @@ button:focus {
     -webkit-transition: all 0.3s ease-in-out 0.1s;
     -o-transition: all 0.3s ease-in-out 0.1s;
     transition: all 0.3s ease-in-out 0.1s;
-    color:#fff;
+    color:rgb(1, 15, 8);
     display: block;
     position: relative;
     overflow: hidden;
@@ -2242,15 +2245,15 @@ button:focus {
   }
 
   .copy-icon ul li:nth-child(1) a:before{
-    background: #ebedf1;
+    background: #216F31;
   }
 
   .copy-icon ul li:nth-child(2) a:before{
-    background: #55acee;
+    background: #216F31;
   }
 
   .copy-icon ul li:nth-child(3) a:before {
-    background: #0077b5;
+    background: #216F31;
   }
 
 /* .copy-icon a i:hover {
@@ -3142,8 +3145,9 @@ button:focus {
     position: relative;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: rgb(190, 196, 247);
-    box-shadow: 3px 0px 12px 0px #5b6fe633;
+    background-image: linear-gradient(to bottom right, rgb(227, 229, 236),rgb(255, 255, 255),rgb(204, 240, 215));
+    /* background: rgb(131, 159, 202); */
+    box-shadow: 3px 0px 12px 0px rgb(67, 143, 67);
     padding: 40px 10px;
     position: relative;
     z-index: 999;
@@ -3174,7 +3178,7 @@ button:focus {
     background-position: center;
     -webkit-filter: brightness(40%);
     filter: brightness(40%);
-    background-color: #020a35;
+    background-color: rgb(100, 139, 100); 
 }
 .banner_bootom_box:after {
     z-index: 1;
@@ -3200,7 +3204,7 @@ button:focus {
 .banner_bootom_text h3{
     -webkit-transition: all 0.17s ease-out 0.18s;
     transition: all 0.17s ease-out 0.18s;
-    color: rgb(52, 18, 240);
+    color: rgb(20, 10, 73);
     font-weight: 600;
 }
 
@@ -3667,19 +3671,19 @@ filter: invert(1);
     fill:#4c6bf7;
 }
 .works-items-wrappers .how-it-works-items:nth-child(2) .how-icons-five svg{
-    fill:#FF3838;
+    fill:#4c6bf7;
 }
 .works-items-wrappers .how-it-works-items:nth-child(3) .how-icons-five svg{
-    fill:#FF930E;
+    fill:#4c6bf7;
 }
 .works-items-wrappers .how-it-works-items:nth-child(1) .text-icons-how-work:hover  .how-icons-five{
-    background-color: #030242;
+    background-color: #216F31;
 }
 .works-items-wrappers .how-it-works-items:nth-child(2) .text-icons-how-work:hover .how-icons-five{
-    background-color: #030744;
+    background-color: #216F31;
 }
 .works-items-wrappers .how-it-works-items:nth-child(3) .text-icons-how-work:hover .how-icons-five{
-    background-color: #05023a;
+    background-color: #216F31;
 }
 .works-items-wrappers .how-it-works-items:nth-child(1) .text-icons-how-work:hover .how-icons-five svg{
   fill:#fff;

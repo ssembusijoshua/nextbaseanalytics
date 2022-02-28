@@ -3,11 +3,10 @@ import React from 'react'
 import History from '../component/About/History'
 import GetStarted from '../component/Common/GetStarted/index'
 import Counter from '../component/Common/Counter/index'
-import OurClient from '../component/HomeThree/Clients'
+// import OurClient from '../component/HomeThree/Clients'
 // import Testimonials from '../component/Common/Testimonials'
 import TeamMembers from '../component/About/Team'
-import Cta
- from '../layout/Cta'
+import Cta from '../layout/Cta'
 
 const About = () => {
     return (
@@ -17,8 +16,7 @@ const About = () => {
             <GetStarted/>
             <Counter/>
             <TeamMembers/>
-        
-            <OurClient/>
+            {/* <OurClient/> */}
             <Cta/>
             {/* <Testimonials/> */}
         </>

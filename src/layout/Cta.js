@@ -24,7 +24,7 @@ const Cta = () => {
                                 <h3 className="white-color">Newsletter</h3>
                                 <h2 className="white-color">Subscribe to Our Newsletter</h2>
                                 <p className="white-color">
-                                    Stay up to date on NextBase publications and events
+                                    Stay up to date on NextData AFRICA publications and events
                                 </p>
                             </div>
                         </div>

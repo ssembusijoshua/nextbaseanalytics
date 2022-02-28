@@ -21,25 +21,25 @@ export const OurServiceData = [
 {
  img:Icon3,
  heading:"Computing Infrastructure",
- paragraph:"Server installation and management. We help you plan for your personal/institutional computational needs, acquire the optimal equipment for your needs, install and maintain the resource.",
+ paragraph:"Server installation and management. Plan for your institutional computational needs, acquire optimal equipment and implement structural procedures based on data-driven best practices for each of the technology elements composing your environment to maximize overall productivity.",
  button:"Read More ..."
 },
 {
  img:Icon4,
  heading:"Biostatistical Analysis",
- paragraph:"Design, Development and Deployment.",
+ paragraph:"Biostatistical consulting services designed to take complex statistical analyses and translate their results into clear and meaningful conclusions for research and biotechnology institutions. We provide statistical services to clients for a range of studies including  metagenomicity and immunogenicity.",
  button:"Read More ..."
 },
 {
  img:Icon5,
  heading:"Data Management",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ paragraph:"NextData AFRICA offers a dedicated team of data management consultants, solution architects, and data engineers to help you establish data governance policies and implement relevant tech solutions. We implement a comprehensive data management program using the best elements.",
  button:"Read More ..."
 },
 {
  img:Icon6,
- heading:"Short Training",
- paragraph:"Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+ heading:"Training",
+ paragraph:"The job role of a Data Analyst is one of the most in-demand for enterprises globally. Businesses want to make sense of the data that is being collected on a regular basis.The Data Science certifications are an excellent way for professionals to demonstrate their expertise and  skills to manage data.",
  button:"Read More ..."
 }
 ]

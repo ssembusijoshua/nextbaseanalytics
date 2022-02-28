@@ -8,7 +8,7 @@ import { SiMinutemailer } from 'react-icons/si';
  
 const FooterItems=[
     {
-        title:"Links",
+        title:"LINKS",
         links: [
           { linkTitle: "Home", link: "/" },
           { linkTitle: "About Us", link: "/about" },
@@ -18,7 +18,7 @@ const FooterItems=[
         ],
     },
     {
-        title:"Services",
+        title:"SERVICES",
         links: [
           { linkTitle: "Big Data", link: "/about" },
           { linkTitle: "Biostatistics", link: "/services" },
@@ -38,7 +38,7 @@ const Footer=()=> {
                     <div className="footer-about-area">
                         <Link to="/"><img alt="" src={logo}  /></Link>
                         <p className="pt30">
-                            NextBase Analytics offers a range of services that support customers achieve the product and commercial product.
+                            NextData AFRICA offers a range of services that support customers achieve the product and commercial product.
                         </p>
                         {/* <p>
                            Our services can be provided off-shore or at the customer premises.

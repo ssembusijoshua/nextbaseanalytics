@@ -17,7 +17,7 @@ const Banner = () => {
          <div className="row">
              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                  <div className="home-one-banner-content color-white ">
-                     <h1 className="color-white ">Big Data & Analytics</h1>
+                     <h1 className="color-white ">NextData & Analytics</h1>
                      <h2 className="color-white ">Innovative Solutions</h2>
                      <p className="color-white ">
                          Real-time data management technologies, global data market places, and award-winning service

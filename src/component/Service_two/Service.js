@@ -31,7 +31,6 @@ src={Icon1}/>
         </div>
         </div>
         </div>
-
         <div className="col-lg-4 col-md-6 col-sm-12 col-12 ">
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
@@ -47,14 +46,13 @@ src={Icon2}/>
         </div>
         </div>
         </div>
-
         <div className="col-lg-4 col-md-6 col-sm-12 col-12 ">
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
 <img
 src={Icon3}/>
 <h3>Computing Infrastructure</h3>
-<p>Server installation and management. We help you plan for your personal/institutional computational needs, acquire the optimal equipment for your needs, install and maintain the resource."</p>
+<p>Server installation and management. Plan for your institutional computational needs, acquire optimal equipment and implement structural procedures based on data-driven best practices for each technology element."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
@@ -63,14 +61,13 @@ src={Icon3}/>
         </div>
         </div>
         </div>
-
         <div className="col-lg-4 col-md-6 col-sm-12 col-12 ">
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
 <img
 src={Icon4}/>
 <h3>Biostatistical Analysis</h3>
-<p>Design, Development and Deployment."</p>
+<p>Biostatistical consulting services designed to take complex statistical analyses and translate their results into clear and meaningful conclusions for research and biotechnology institutions. We provide statistical services to clients for a range of studies including  metagenomicity and immunogenicity."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
@@ -79,14 +76,13 @@ src={Icon4}/>
         </div>
         </div>
         </div>
-
         <div className="col-lg-4 col-md-6 col-sm-12 col-12 ">
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
 <img
 src={Icon5}/>
 <h3>Data Management</h3>
-<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+<p>NextData AFRICA offers a dedicated team of data management consultants, solution architects, and data engineers to help you establish data governance policies and implement relevant tech solutions. We implement a comprehensive data management program using the best elements.</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
@@ -95,14 +91,13 @@ src={Icon5}/>
         </div>
         </div>
         </div>
-
         <div className="col-lg-4 col-md-6 col-sm-12 col-12 ">
         <div className="service-box animation-translate box-shadow border-radius">
         <div className="service-box-inner text-center">
 <img
 src={Icon6}/>
-<h3>Short Training</h3>
-<p>Lorem ipsum dolor sit amet, sed nom consectetur adipiscing elit, sed do eiusmod tempor incididunt."</p>
+<h3>Training</h3>
+<p>The job role of a Data Analyst is one of the most in-demand for enterprises globally. Businesses want to make sense of the data that is being collected on a regular basis.The Data Science certifications are an excellent way for professionals to demonstrate their expertise and  skills to manage data."</p>
 {/* 
         <img alt="" src={props.data.img}  />
         <h3><Link to="/service_details">{props.data.heading}</Link></h3>
@@ -111,16 +106,9 @@ src={Icon6}/>
         </div>
         </div>
         </div>
-            </div>
         </div>
-
-        
-     
-
-    
+        </div>
         </section>
-
-
         </>
     )
 }

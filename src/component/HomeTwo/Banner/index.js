@@ -19,14 +19,16 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="home-one-banner-content">
-                <h1>Big Data & Analytics</h1>
+                <h1>Big<a style={{ color: '#216F31' }}>Data</a> &</h1>
+                <h1>Analytics<a style={{ color: '#216F31' }}>...</a></h1>
                 <h2>Innovative Solutions</h2>
                 <p>
-                  NextBase Analytics offers a wide range of 
+                  <a style={{ color: '#216F31', fontWeight: 'bolder' }} >NextData</a> <a style={{ fontWeight: 'bolder' }} >AFRICA</a> offers a wide range of 
                   services that support customers achieve the product and
+                  
                   commercial output.
                   Our services can be provided 
-                  off-shore or at the customer location.
+                  <a style={{ color: '#216F31', fontWeight: 'bold' }}> off-shore</a> or at the <a style={{ color: '#216F31', fontWeight: 'bold' }}>customer location.</a>
                 </p>
                 <ModalVideo
                   channel="youtube"

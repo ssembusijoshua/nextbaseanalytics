@@ -17,32 +17,26 @@ const History = () => {
                                 <p>
                                 To ensure Maximum Efficiency and improved Performance through Data Mining.
                                 </p>
-                                <h2>About NextBase Analytics</h2>
+                                <h2>About NextData AFRICA</h2>
                                 <p>
-                                For the last 5 years, NextBase Analytics has built a culture of continuous innovation
-                                in data mining and machine learning consulting to match today's dynamic business world
+                                For the last 5 years, NextData AFRICA has built a culture of continuous innovation
+                                in <a style={{fontWeight: 'bold'}}>data mining</a> and <a style={{fontWeight: 'bold'}}>machine learning consulting</a> to match today's dynamic business world
                                 and capitalising on Big Data Analytics.
                                 </p>
                                 <p>
-                                Our clients choose us for our ability to provide contextual AI-powered analytics solutions to solve
+                                Our clients choose us for our ability to provide contextual <a style={{fontWeight: 'bold'}}>AI-powered analytics solutions</a> to solve
                                 complex business problems and deliver digital transformation outcomes.
                                 </p>
                                 <ul>
                                     <li><i><FiCheck/></i>Data Engineering</li>
-                                    <li>
-                                        <i><FiCheck/></i>Machine Learning
-                                    </li>
+                                    <li><i><FiCheck/></i>Machine Learning</li>
                                     <li><i><FiCheck/></i>Asset Based Consulting</li>
-                                    {/* <li>
-                                        <i><FiCheck/></i>Distributed setup on Cloud for speed
-                                    </li>
-                                    <li><i><FiCheck/></i>Django framework</li> */}
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="about-top-img animation-img-two">
-                                <img alt="" src={img1} />
+                                <img className="pt40"alt="img" src={img1} />
                             </div>
                         </div>
                     </div>

@@ -1,15 +1,13 @@
 import React from 'react'
-import CommonBanner from '../component/Common/Banner'
-import SingleServiceDetails from '../component/ServiceDetails/SingleServiceDeatils'
-import RelatedServices from '../component/ServiceDetails/RelatedServices'
-import ServiceGraph from '../component/ServiceDetails/ServiceGraph'
+import SingleServiceDetails from '../component/ServiceDetails/Biostatisticssd'
+// import RelatedServices from '../component/ServiceDetails/RelatedServices'
+import ServiceGraph from '../component/ServiceDetails/Biostatisticsg'
 
 const BiostatisticalAnalysis = () => {
     return (
         <>
-            <CommonBanner heading="Service Details" menu1="Home" menu2="Service Details"/>
             <SingleServiceDetails/>
-            <RelatedServices/>
+            {/* <RelatedServices/> */}
             <ServiceGraph/>
         </>
     )

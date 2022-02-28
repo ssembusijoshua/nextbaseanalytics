@@ -1,6 +1,6 @@
 import React from "react";
 // Import Img
-import img from '../../../assets/img/home4/consulting.png'
+import img from '../../../assets/img/home4/client2.png'
 import img2 from '../../../assets/img/home-two-data/1.png'
 import svg1 from "../../../assets/img/svg/settings.svg";
 import svg2 from "../../../assets/img/svg/testing.svg";
@@ -27,16 +27,16 @@ const About = () => {
             <div className="col-lg-6  col-md-12 col-sm-12 col-12">
               <div className="who-we-contant">
                 <h2>
-                Knowledge and Consulting.
+                Knowledge and Consulting
                 </h2>
                 <p>
-                 Nextbase Analytics has significant experience in the markets and industries that it operates and we house
-                 a multi-disciplinary team of practitioners comprising of Doctorate, Post Graduates and Graduates
-                 in science and technology with experience in Pharmaceutical, Medical, Analytical, Life Sciences 
+                 <a>NextData AFRICA</a> has significant experience in the markets and industries that it operates and we house
+                 a multi-disciplinary team of practitioners comprising of <a style={{ color: '#216F31', fontWeight: 'bold' }}>Doctorate, Post Graduates and Graduates
+                 in science and technology</a> with experience in Pharmaceutical, Medical, Analytical, Life Sciences 
                  and research labs.
                 </p>
-                <p>In addition, Nexbase Analytics has professionals in the area of software and embedded technology which
-                 lays strong grounds to offer knowledge and consulting services in the markets it targets.</p>
+                <p>In addition, we have professionals in the area of <a style={{ color: '#216F31', fontWeight: 'bold' }}>software</a> and <a style={{ color: '#216F31', fontWeight: 'bold' }}>embedded technology</a> which
+                 lays strong grounds to offer knowledge and consulting services in market targets.</p>
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="home4-about-list">

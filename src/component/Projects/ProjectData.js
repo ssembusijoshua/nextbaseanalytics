@@ -1,6 +1,9 @@
-import img1 from '../../assets/img/project-grid/1.jpg'
-import img2 from '../../assets/img/project-grid/2.jpg'
-import img3 from '../../assets/img/project-grid/3.jpg'
+import img1 from '../../assets/img/project-grid/bioinfo.png'
+import img2 from '../../assets/img/project-grid/bigdata.png'
+import img3 from '../../assets/img/project-grid/biostatistical.png'
+import img4 from '../../assets/img/project-grid/datamangt.png'
+import img5 from '../../assets/img/project-grid/compinf.png'
+import img6 from '../../assets/img/project-grid/shorttraining.png'
 
 export const ProjectData = [
     {
@@ -16,15 +19,15 @@ export const ProjectData = [
         title: "Biostatistical Analysis"
     },
     {
-        img: img2,
+        img: img4,
         title: "Data Management"
     },
     {
-        img: img3,
+        img: img5,
         title: "Computing Infrastructure"
     },
     {
-        img: img1,
+        img: img6,
         title: " Short Training"
     },
     

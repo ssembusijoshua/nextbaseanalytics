@@ -7,7 +7,10 @@ const HowItWorks = () => {
         <>
             <section id="how_it_works_area">
   <div className="container" className="py50">
-      <SectionHeading heading="We use data in a multitude of ways to support various business functions." />
+        {/* <div>
+            <h2 style={{textAlign:'center'}}>We use data in a multitude of ways to support various business functions</h2>
+        </div> */}
+      {/* <SectionHeading heading="We use data in a multitude of ways to support various business functions." /> */}
 <div className="row align-items-center">
  <div className="col-lg-6 col-md-12 ol-sm-12 col-12">
   <div className="works-items-wrappers">
@@ -20,7 +23,7 @@ const HowItWorks = () => {
       </svg>
      </div>
      <div className="how-text-five">
-      <h3>Big Data</h3>
+      <h3 style={{ color: '#216F31' }}>Big Data</h3>
       <p>Large data sets that may be analysed computationally to reveal patterns, trends and associations</p>
      </div>
     </div>
@@ -34,7 +37,7 @@ const HowItWorks = () => {
    <div className="how-it-works-items">
     <div className="text-icons-how-work">
      <div className="how-text-five">
-      <h3>Data Science</h3>
+      <h3 style={{ color: '#216F31' }}>Data Science</h3>
       <p>More advanced use of mathematics, statistics and the process of modeling and inferring meaning from data. Emphasizes experimentation using tools like Machine Learning and Artificial Intelligence.</p>
      </div>
      <div className="how-icons-five box-shadow">
@@ -56,7 +59,7 @@ const HowItWorks = () => {
         <path d="m93 58.062a6 6 0 0 0 -6 6v110.506a6 6 0 0 0 12 0v-110.506a6 6 0 0 0 -6-6z"/></svg>
      </div>
      <div className="how-text-five">
-      <h3>Data Analytics</h3>
+      <h3 style={{ color: '#216F31' }}>Data Analytics</h3>
       <p>Analysis and reporting of known metrics in data to enable the delivery of the right data in order to drive business decisions.</p>
      </div>
     </div>
