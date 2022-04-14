@@ -1,11 +1,11 @@
 import React from 'react'
-import img from '../../assets/img/project-details/biosd2.png'
+import img from '../../assets/img/project-details/bioinform.jpeg'
 import img1 from '../../assets/img/project-details/biosd5.jpg'
 
 const SingleServiceDeatils = () => {
     return (
         <>
-            <section id="service-details" className="py100">
+            <section id="service-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -25,7 +25,7 @@ const SingleServiceDeatils = () => {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="service-details-img">
+                            <div className="service-details-img mt30">
                                 <img alt="" src={img} />
                             </div>
                         </div>
@@ -43,17 +43,8 @@ const SingleServiceDeatils = () => {
                                 </ul>
                         </div>
                     </div> */}
-                </div>
-            </section>
-           
-                <div className='container mb50'>
-                    <div className='row pb30 pt30' style={{ backgroundImage: `linear-gradient(to right, rgb(227, 229, 236),rgb(255, 255, 255)`}}>
-                        <div className="col-lg-3 mt20">
-                                <div className="service-details-img">
-                                    <img alt="" src={img1} />
-                                </div>
-                        </div>
-                        <div className="col-lg-3">
+                    <div className='row py50 mt60' style={{ backgroundImage: `linear-gradient(to right, rgb(227, 229, 236),rgb(255, 255, 255)`}}>
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">RNA-Seq</h3>
@@ -64,7 +55,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Small RNA Analysis</h3>
@@ -77,7 +68,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Genome Variants Calling</h3>
@@ -89,6 +80,7 @@ const SingleServiceDeatils = () => {
                         </div>
                     </div>
                 </div>
+            </section>
             
         </>
     )

@@ -1,18 +1,18 @@
 import React from 'react'
-import img1 from '../../assets/img/service-details/1.jpg'
+import img1 from '../../assets/img/service-details/bs1.jpg'
 import {BsCheckCircle} from "react-icons/bs";
 
 function ServiceGraph() {
     return (
         <>
-            <section id="service-img-details" className="py100">
+            <section id="service-img-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="service-img-details">
                                 <img alt="" src={img1} />
                             </div>
-                            <p className='pt20'>Although we are happy to provide statistical consulting advice on specific stages of a clinical study,
+                            <p className='pt20 pb20'>Although we are happy to provide statistical consulting advice on specific stages of a clinical study,
                                 involving MDS in all stages assures consistency and clarity.</p>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 pb30 pt30" style={{ backgroundImage: `linear-gradient(to right, rgb(255, 255, 255), rgb(227, 229, 236)`}}>

@@ -1,10 +1,10 @@
 import React from 'react'
-import img from '../../assets/img/project-details/2.png'
+import img from '../../assets/img/project-details/shot1.png'
 
 const SingleServiceDeatils = () => {
     return (
         <>
-            <section id="service-details" className="py100">
+            <section id="service-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

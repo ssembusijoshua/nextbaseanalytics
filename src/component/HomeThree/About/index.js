@@ -1,6 +1,6 @@
 import React from "react";
 // Import Img
-import img from '../../../assets/img/home4/client2.png'
+import img from '../../../assets/img/home4/client5.png'
 import img2 from '../../../assets/img/home-two-data/1.png'
 import svg1 from "../../../assets/img/svg/settings.svg";
 import svg2 from "../../../assets/img/svg/testing.svg";
@@ -9,7 +9,6 @@ import svg4 from "../../../assets/img/svg/edit-tools.svg";
 import svg5 from "../../../assets/img/svg/user-experience.svg";
 import svg6 from "../../../assets/img/svg/responsive.svg";
 import check from "../../../assets/img/home-two-data/1.jpg";
-import Tilt from 'react-parallax-tilt';
 
 const About = () => {
   return (
@@ -18,10 +17,8 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <div className="home4-about-img">
-                <Tilt>
-                <img src={img} alt="img" />
-                </Tilt>
+              <div className="home4-about-img animation-img-two">
+              <img src={img} alt="img" />
               </div>
             </div>
             <div className="col-lg-6  col-md-12 col-sm-12 col-12">

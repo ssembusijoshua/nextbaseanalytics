@@ -1,16 +1,16 @@
 import React from 'react'
-import img from '../../assets/img/project-details/2.png'
+import img from '../../assets/img/project-details/bigd2.png'
 
 const SingleServiceDeatils = () => {
     return (
         <>
-            <section id="service-details" className="py100">
+            <section id="service-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
-                                    <h2 className="pt10">BigData Analytics</h2>
+                                    <h2 className="pt5">BigData Analytics</h2>
                                     <p>Big data analytics is the often complex process of examining big data to uncover
                                          information such as hidden patterns, correlations, market trends and customer 
                                          preferences that can help organizations make informed business decisions.</p>
@@ -23,7 +23,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mt30">
                             <div className="service-details-img">
                                 <img alt="" src={img} />
                             </div>
@@ -47,7 +47,7 @@ const SingleServiceDeatils = () => {
            
                 <div className='container mb50'>
                     <div className='row pb30 pt30' style={{ backgroundImage: `linear-gradient(to right, rgb(227, 229, 236),rgb(255, 255, 255)`}}>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt20">
                         <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Data infrastructure</h3>
@@ -57,7 +57,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div> 
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Data security</h3>
@@ -67,7 +67,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">BI & data analytics</h3>
@@ -77,7 +77,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Data visualization</h3>

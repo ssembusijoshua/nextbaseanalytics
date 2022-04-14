@@ -1,10 +1,10 @@
 import React from 'react'
-import img from '../../assets/img/project-details/biosd2.png'
+import img from '../../assets/img/project-details/analysis.png'
 
 const SingleServiceDeatils = () => {
     return (
         <>
-            <section id="service-details" className="py100">
+            <section id="service-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -21,7 +21,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mt20">
                             <div className="service-details-img">
                                 <img alt="" src={img} />
                             </div>
@@ -37,32 +37,32 @@ const SingleServiceDeatils = () => {
                                     <img alt="" src={img} />
                                 </div>
                         </div> */}
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Statistical Analysis Plan</h3>
-                                    <p>MDS will prepare a complete Statistical Analysis Plan
+                                    <p className="pb10">MDS will prepare a complete Statistical Analysis Plan
                                          that includes a detailed description of all statistical analyses to be carried out on the data
                                          collected during the clinical investigation. Mock-ups of tables, listings, and figures will also be part of
                                          the Statistical Analysis Plan.</p>   
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Statistical Programming</h3>
-                                        <p>All work will be done using industry-standard software, either SAS or R. The code used to conduct all statistical analyses
+                                        <p className="pb10">All work will be done using industry-standard software, either SAS or R. The code used to conduct all statistical analyses
                                          will be thoroughly-annotated and subjected to validation through independent review by a statistician different from the
                                          one who generated the original programs.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Statistical Report</h3>
-                                    <p >A statistical report will be produced in conjunction with the preparation of a full clinical report. The statistical report will provide
+                                    <p className="pb10">A statistical report will be produced in conjunction with the preparation of a full clinical report. The statistical report will provide
                                         a description of the findings of the statistical analyses for the clinical investigation and will confirm that the analyses were conducted
                                         per the statistical analysis plan.</p>
                                 </div>

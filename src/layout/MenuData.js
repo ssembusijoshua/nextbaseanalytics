@@ -53,23 +53,23 @@ export const MenuData = [
             }
         ]*/
     },
-    {
-        name: "Portfolio",
-        href: "#",
-        has_children: false,
-        /*children: [
-            {
-                name: "Projects",
-                href: "/projects",
-                has_children: false,
-            },
-            {
-                name: "Project Details",
-                href: "/project_details",
-                has_children: false,
-            }
-        ]*/
-    },
+    // {
+    //     name: "Portfolio",
+    //     href: "#",
+    //     has_children: false,
+    //     /*children: [
+    //         {
+    //             name: "Projects",
+    //             href: "/projects",
+    //             has_children: false,
+    //         },
+    //         {
+    //             name: "Project Details",
+    //             href: "/project_details",
+    //             has_children: false,
+    //         }
+    //     ]*/
+    // },
     // {
     //     name: "Test",
     //     href: "/servicedetailed",

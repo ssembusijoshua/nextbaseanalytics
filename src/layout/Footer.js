@@ -1,7 +1,7 @@
 import React from 'react'
 import shap from '../assets/img/svg/footer.svg'
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/logo13.png'
+import logo from '../assets/img/maryjs.png'
 import { ImLocation } from 'react-icons/im';
 import { FiPhoneOutgoing } from 'react-icons/fi';
 import { SiMinutemailer } from 'react-icons/si';

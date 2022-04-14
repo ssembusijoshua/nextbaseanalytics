@@ -1,10 +1,11 @@
 import React from 'react'
-import img from '../../assets/img/project-details/2.png'
+import img from '../../assets/img/project-details/ci3.jpg'
+import img1 from '../../assets/img/project-details/ci1.jpeg'
 
 const SingleServiceDeatils = () => {
     return (
         <>
-            <section id="service-details" className="py100">
+            <section id="service-details" className="py50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -43,12 +44,7 @@ const SingleServiceDeatils = () => {
            
                 <div className='container mb50'>
                     <div className='row pb30 pt30' style={{ backgroundImage: `linear-gradient(to right, rgb(227, 229, 236),rgb(255, 255, 255)`}}>
-                        <div className="col-lg-3 mt20">
-                                <div className="service-details-img">
-                                    <img alt="" src={img} />
-                                </div>
-                        </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">End-User Computing</h3>
@@ -58,7 +54,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Database & ERP administration</h3>
@@ -67,7 +63,7 @@ const SingleServiceDeatils = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4 mt20">
                             <div className="service-detail-text">
                                 <div className="left-side-title">
                                     <h3 className="pt10">Server and Storage Services</h3>
