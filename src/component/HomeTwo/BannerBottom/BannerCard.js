@@ -13,7 +13,7 @@ const BannerCard = (props) => {
              <div className="banner_bootom_text">
                 <h3>{props.heading}</h3>
                 <p>{props.para}</p>
-                <a href="/Service">Learn-More<FiArrowRightCircle/></a>
+                <a href="/service">Learn-More<FiArrowRightCircle/></a>
              </div>
             </div>   
         </>

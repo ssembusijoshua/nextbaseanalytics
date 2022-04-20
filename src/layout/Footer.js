@@ -13,17 +13,17 @@ const FooterItems=[
           { linkTitle: "Home", link: "/" },
           { linkTitle: "About Us", link: "/about" },
           { linkTitle: "What we do", link: "/service" },
-          { linkTitle: "Portifolio", link: "/projects" },
+          { linkTitle: "Portifolio", link: "/" },
           { linkTitle: "Our Rates", link: "/home_two" },
         ],
     },
     {
         title:"SERVICES",
         links: [
-          { linkTitle: "Big Data", link: "/about" },
-          { linkTitle: "Biostatistics", link: "/services" },
-          { linkTitle: "Data management", link: "/contact" },
-          { linkTitle: "Bioinformatics", link: "/contact" },
+          { linkTitle: "Big Data", link: "/BigDataAnalytics" },
+          { linkTitle: "Biostatistics", link: "/BiostatisticalAnalysis" },
+          { linkTitle: "Data management", link: "/DataManagement" },
+          { linkTitle: "Bioinformatics", link: "/Bioinformatics" },
         ],
     }
 ]
@@ -36,7 +36,7 @@ const Footer=()=> {
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div className="footer-about-area">
-                        <Link to="/"><img alt="" src={logo}  /></Link>
+                        <Link to="/"><img alt="" src={logo} /></Link>
                         <p className="pt30">
                             NextData AFRICA offers a range of services that support customers achieve the product and commercial product.
                         </p>
@@ -69,13 +69,13 @@ const Footer=()=> {
                         <div className="footer-contact-area footer-list pt40">
                            <ul>
                                <li>
-                                   <i><ImLocation/></i> 20A, Namibia Estate, Off Nakiwogo Road,  Entebbe, Uganda.
+                                   <i><ImLocation/></i> 20A, Namibia Estate, Off Nakiwogo Road, Entebbe, Uganda.
                                </li>
                                <li>
                                    <i><FiPhoneOutgoing/></i><Link to="/">+012 -3 456 789</Link>
                                </li>
                                <li>
-                                   <i><SiMinutemailer/></i><Link to="/">Info@nextbase.com</Link>
+                                   <i><SiMinutemailer/></i><Link to="/">info@nextdataafrica.com</Link>
                                </li>
                            </ul>
                        </div>  

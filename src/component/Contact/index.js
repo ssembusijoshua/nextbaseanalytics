@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactMap from '../Contact/ContactMap'
+// import ContactMap from '../Contact/ContactMap'
 import ContactInfo from '../Contact/ContactInfo'
 import ContactForm from '../Contact/Contactform'
 
@@ -7,7 +7,7 @@ const ContactDetails = () => {
     return (
         <>
             <section id="contact">
-                <ContactMap/>
+                {/* <ContactMap/> */}
                 <div className="container">
                     <div className="padding-areas">
                         <div className="row">

@@ -4,7 +4,7 @@ import FormInput from "../From/index";
 const ContactForm = () => {
     return (
         <>
-            <div className="contact-form-area box-shadow">
+            <div className="contact-form-area box-shadow py50">
                 <form action="#">
                     <div className="row">
                         <div className="col-lg-6  col-md-12 col-sm-12 col-12">

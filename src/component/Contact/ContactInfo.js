@@ -7,9 +7,7 @@ const ContactInfo = () => {
     return (
         <>
             <div className="contact-content">
-                <h3>Contact Here</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis nemo pariatur harum
-                    dolore.</p>
+                <h3>Contact Us</h3>
                 <ul className="contact-info">
                     <li>
                         <div className="media">
@@ -24,7 +22,7 @@ const ContactInfo = () => {
                         <div className="media">
                             <div className="icon-area"><i><ImLocation2/></i></div>
                             <div className="media-body contact-info-here">
-                                <h5>Ranlon Market 789 Road, Market Street,Newyork</h5>
+                                <h5> 20A, Namibia Estate, Off Nakiwogo Road,  Entebbe, Uganda.</h5>
                             </div>
                         </div>
                     </li>

@@ -3677,22 +3677,22 @@ filter: invert(1);
     fill:#4c6bf7;
 }
 .works-items-wrappers .how-it-works-items:nth-child(1) .text-icons-how-work:hover  .how-icons-five{
-    background-color: #216F31;
+    background-color: #fff;
 }
 .works-items-wrappers .how-it-works-items:nth-child(2) .text-icons-how-work:hover .how-icons-five{
-    background-color: #216F31;
+    background-color: #fff;
 }
 .works-items-wrappers .how-it-works-items:nth-child(3) .text-icons-how-work:hover .how-icons-five{
-    background-color: #216F31;
+    background-color: #fff;
 }
 .works-items-wrappers .how-it-works-items:nth-child(1) .text-icons-how-work:hover .how-icons-five svg{
-  fill:#fff;
+  fill:#216F31;
 }
 .works-items-wrappers .how-it-works-items:nth-child(2) .text-icons-how-work:hover .how-icons-five svg{
-  fill:#fff;
+  fill:#216F31;
 }
 .works-items-wrappers .how-it-works-items:nth-child(3) .text-icons-how-work:hover .how-icons-five svg{
-  fill:#fff;
+  fill:#216F31;
 }
 .how-icons-five{
     width: 130px;

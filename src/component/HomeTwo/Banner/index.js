@@ -19,8 +19,8 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="home-one-banner-content">
-                <h1>Big<a style={{ color: '#216F31' }}>Data</a> &</h1>
-                <h1>Analytics<a style={{ color: '#216F31' }}>...</a></h1>
+                <h1><a style={{ color: '#216F31' }}>Next</a>Data</h1>
+                <h1>AFRICA<a style={{ color: '#216F31' }}>...</a></h1>
                 <h2>Innovative Solutions</h2>
                 <p>
                   <a style={{ color: '#216F31', fontWeight: 'bolder' }} >NextData</a> <a style={{ fontWeight: 'bolder' }} >AFRICA</a> offers a wide range of 
